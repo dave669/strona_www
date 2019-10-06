@@ -1,0 +1,149 @@
+body{
+    font-size: 1.3em;
+    font-family: "Open Sans", sans-serif;
+    color: #888888;
+}
+/* Dodatkowe  */
+section{
+    margin:0px;
+    padding:40px 0px 20px;
+}
+/*Separator odsuwa od góry*/
+.top-separator{
+    height:73px;
+}
+/*ukrywanie elementów*/
+.hiden{
+    opacity:0;
+}
+.show{
+    opacity:1;
+}
+
+/* header  */
+.main-header{
+    background: #fff;
+    border-bottom:1px solid #ddd;
+    z-index: 100;
+    position:fixed;
+    top:0px;
+    right:0px;
+    left: 0px;
+    box-shadow: 0 0 1px #ddd;
+}
+
+/*menu navbar*/
+.navbar{
+    margin-bottom:0px !important;
+    min-height: 0px !important;
+    padding:10px;
+}
+.navbar-nav>li{
+    color:#000;
+    padding:0px 10px 0px 10px;
+}
+.navbar-nav li a{
+    font-size:1.2em;
+}
+
+/* slider  */
+section.slider{
+    margin:0px;
+    padding:0px;
+}
+.slider{
+    border-bottom: 1px dashed #ccc;
+}
+/*kontener otaczajacy informacje*/
+.main-slider-content{
+    padding: 20% 2%;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+/*tło kontenera*/
+.main-slide-1{
+    background-image:url('../img/slider/slider1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.main-slide-2{
+    background-image:url('../img/slider/slider2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.bx-wrapper{
+    margin-bottom:0px !important; 
+    border:0px !important;
+}
+
+/*Informacje*/
+.main-informacje{
+    border-bottom:1px dashed #ddd;
+}
+.main-informacje h3{
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 18px;
+    color: #434343;
+    font-weight: 400;
+}
+.main-informacje p{
+    line-height:22px;
+}
+.main-informacje i{
+    font-size:30px;
+    color:#000;
+    margin-bottom:15px;
+}
+.mg-b{
+    margin-bottom:20px;
+}
+
+/*Projekty*/
+.main-projekty{
+    text-align: center;
+}
+.projekty-info{
+    margin:0px 0px 30px;
+}
+.item{
+    background: #fff;
+}
+
+/*Komentarze*/
+.main-komentarze{
+    border-top:1px dashed #ddd;
+}
+.komentarze-info{
+    margin:0px 0px 10px;
+}
+.kom-list p{
+    /* margin-bottom:40px; */
+    color:#000;
+}
+.kom-list h4{
+    font-size:2em;
+    color:#000;
+    padding:10px 0px 10px;
+}
+.kom-list li{
+    height:120px !important;
+    box-shadow:none !important;
+}
+
+
+/*stopka*/
+footer{
+    border-top:1px dashed #ddd;
+    padding:15px 0px 15px;
+    text-align: right;
+    background:#000;
+}
+.copyright{
+    padding-right: 20px;
+}

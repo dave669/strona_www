@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <!-- bxSlider CSS file -->
+    <link href="./css/jquery.bxslider.css" rel="stylesheet" />
+    <!-- owl slider-->
+    <link href="./css/owl.carousel.css" rel="stylesheet" />
+    <!-- owl slider icon -->
+    <link rel="stylesheet" href="./css/owl.theme.default.css">
+    <!-- font  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic" rel="stylesheet" type="text/css">
+    <!-- ikonki -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- Animacja  -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <title>Projekt</title>
+</head>
+<body>
+<!-- Header  -->
+<header class="main-header">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projekty</a></li>
+                    <li><a href="#">O firmie</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav>
+</header>
+<!-- odstęp od nagłówka -->
+<div class="top-separator"></div>
+
+<!-- Slider -->
+<section class="slider">
+    <ul class="bxslider" id="main-slider">
+        <li>
+            <div class="main-slide-1">
+                <div class="container">
+                    <div class="main-slider-content">
+                        <h1 class="animated fadeInLeft">W pełni responsywny projekt</h1>
+                        <p class="animated fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="main-slide-2">
+                <div class="container">
+                    <div class="main-slider-content">
+                        <h1 class="animated fadeInLeft">Zawsze dopasowany do potrzeb</h1>
+                        <p class="animated fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<!-- Kolumna centralna -->
+<div id="main-container">
+
+<!-- Informacje main  -->
+<section class="main-informacje">
+    <div class="container">
+        <div class="row">
+            <div class="info-item" data-animate="slideInLeft">
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center mg-b">
+                    <i class="fas fa-chart-area"></i>
+                    <h3>SEO</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, natus?</p>
+                </div> 
+            </div>
+            <div class="info-item" data-animate="fadeInUp">
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center mg-b">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>PROJEKTY STRON</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, natus?</p>
+                </div>
+            </div>
+            <div class="info-item" data-animate="fadeInDown">
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center mg-b">
+                    <i class="fas fa-laptop"></i>
+                    <h3>PROGRAMOWANIE</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, natus?</p>
+                </div> 
+            </div>
+            <div class="info-item" data-animate="slideInRight">
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center mg-b">
+                    <i class="fab fa-wpbeginner"></i>
+                    <h3>INNE USŁUGI</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, natus?</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projekty main -->
+<section class="main-projekty">
+    <div class="projekty-info" data-animate="fadeInUp">
+        <div class="container">
+            <div class="row">
+                <h3>Nasze Portfolio</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia inventore perspiciatis labore at cupiditate natus! Quod molestias accusantium corrupti autem.</p>
+            </div>
+        </div>
+    </div>
+    <div class="projekty-caruousel">
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel owl-theme" id="projekty-carousel">
+                    <div class="item"><img src="img/projekty/1.jpg" alt=""></div>
+                    <div class="item"><img src="img/projekty/2.jpg" alt=""></div>
+                    <div class="item"><img src="img/projekty/3.jpg" alt=""></div>
+                    <div class="item"><img src="img/projekty/4.jpg" alt=""></div>
+                    <div class="item"><img src="img/projekty/5.jpg" alt=""></div>
+                    <div class="item"><img src="img/projekty/6.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Komentarze  main -->
+<section class="main-komentarze text-center">
+    <div class="komentarze-info" data-animate="fadeInUp">
+        <div class="container">
+            <div class="row">
+                <h3>Komentarze klientów naszej firmy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, unde.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="kom-list">
+                <ul class="bxslider" id="komentarze-slider">
+                    <li>
+                        <h4>Jan kolwalski</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quas molestias itaque enim facilis nostrum omnis maiores qui unde magnam!</p>
+                    </li>
+                    <li>
+                        <h4>Tomasz kolwalski</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quas molestias itaque enim facilis nostrum omnis maiores qui unde magnam!</p>
+                    </li>
+                    <li>
+                        <h4>Adam kolwalski</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis quas molestias itaque enim facilis nostrum omnis maiores qui unde magnam!</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+<!-- Koniec main-contaier  -->
+
+<!-- Stopka -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="copyright">
+                Projekt testowy
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jquery  -->
+<script src="./js/jquery-1.12.4.min.js"></script>
+<!-- bootstrap  -->
+<script src="./js/bootstrap.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="./js/jquery.bxslider.min.js"></script>
+<!-- owl slider -->
+<script src="./js/owl.carousel.min.js"></script>
+<!-- ViwePort checker -->
+<script src="./js/jquery.viewportchecker.min.js"></script>
+<!-- skrypty  -->
+<script src="./js/script.js"></script>
+
+</body>
+</html>
