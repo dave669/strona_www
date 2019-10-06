@@ -103,6 +103,16 @@ section.slider{
 .mg-b{
     margin-bottom:20px;
 }
+.info-item i{
+    border-radius: 50%;
+    padding:20px;
+    cursor: pointer;
+}
+.info-item:hover i{
+    background:rgba(101, 133, 238, 0.877);
+    transition: 0.5s ease-in-out;
+    color:#fff;    
+}
 
 /*Projekty*/
 .main-projekty{
